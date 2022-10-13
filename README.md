@@ -9,7 +9,6 @@ what you will need to have installed before you start:<br>
 
 To get started with docker using containerd as the runtime and qemu as the runtime:<br>
 
-
 "<b><h6>dockerd-rootless-setuptool.sh install<br>
 export DOCKER_HOST=unix:///run/user/1000/docker.sock<br>
 minikube start --container-runtime=containerd --driver=qemu2<br>
